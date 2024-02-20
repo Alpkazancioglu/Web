@@ -1,9 +1,10 @@
 body{
 
     background-image: url(images/purple-background.jpg);
-    background-color: #cccccc;
+    background-color: #cccccc; 
 
 }
+
 
 
 #MainDiv{
@@ -13,20 +14,42 @@ body{
     align-items: center;
 }
 
+
 #MainDiv header{
 
 
-    background-color: mediumpurple;
-    width: 520px;
+    
+    max-width: 520px; 
+    min-width: none;
     text-align: center;
 
+}
+
+a{
+    text-decoration: none;
+    padding:  10px;
+    color: black;
+
+}
+
+a:hover{
+
+    font-size: 1.1em;
+    
+}
+
+img{
+
+    width: 450px;
+    margin-left: 20px;
 }
 
 footer{
 
 
     background-color: mediumpurple;
-    width: 520px;
+    max-width: 520px; 
+    min-width: none;
 
 
 }
