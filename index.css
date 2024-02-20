@@ -1,0 +1,38 @@
+body{
+
+    background-image: url(images/purple-background.jpg);
+    background-color: #cccccc;
+
+}
+
+
+#MainDiv{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#MainDiv header{
+
+
+    background-color: mediumpurple;
+    width: 520px;
+    text-align: center;
+
+}
+
+footer{
+
+
+    background-color: mediumpurple;
+    width: 520px;
+
+
+}
+
+footer div{
+
+    margin-left: 10px;
+
+}
